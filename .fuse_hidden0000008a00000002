@@ -1,0 +1,96 @@
+[debug] [2020-06-23T07:14:01.715Z] ----------------------------------------------------------------------
+[debug] [2020-06-23T07:14:01.718Z] Command:       /usr/local/bin/firebase /Users/j/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-06-23T07:14:01.718Z] CLI Version:   8.4.3
+[debug] [2020-06-23T07:14:01.718Z] Platform:      darwin
+[debug] [2020-06-23T07:14:01.718Z] Node Version:  v12.16.1
+[debug] [2020-06-23T07:14:01.720Z] Time:          Tue Jun 23 2020 14:14:01 GMT+0700 (Indochina Time)
+[debug] [2020-06-23T07:14:01.720Z] ----------------------------------------------------------------------
+[debug] [2020-06-23T07:14:01.720Z] 
+[debug] [2020-06-23T07:14:01.732Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-23T07:14:01.733Z] > authorizing via signed-in user
+[debug] [2020-06-23T07:14:01.733Z] [iam] checking project zing-mp3-clone for permissions ["firebase.projects.get"]
+[debug] [2020-06-23T07:14:01.737Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zing-mp3-clone:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-06-23T07:14:02.868Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=850","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-23T07:14:02.870Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zing-mp3-clone  
+ 
+[debug] [2020-06-23T07:14:03.376Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from '/Volumes/Data/codersX/CSS_Lesson_40_Project'...
+[info] 
+[debug] [2020-06-23T07:14:03.379Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zing-mp3-clone/webApps/-/config  
+ 
+[debug] [2020-06-23T07:14:04.605Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [23/Jun/2020:07:14:12 +0000] "GET / HTTP/1.1" 200 3232 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Jun/2020:07:14:12 +0000] \"GET / HTTP/1.1\" 200 3232 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [23/Jun/2020:07:14:12 +0000] "GET /components/header.css HTTP/1.1" 200 3194 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Jun/2020:07:14:12 +0000] \"GET /components/header.css HTTP/1.1\" 200 3194 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [23/Jun/2020:07:14:14 +0000] "GET /favicon.ico HTTP/1.1" 404 1808 "http://localhost:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [23/Jun/2020:07:14:14 +0000] \"GET /favicon.ico HTTP/1.1\" 404 1808 \"http://localhost:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36\""}}
+[debug] [2020-06-23T07:14:44.602Z] ----------------------------------------------------------------------
+[debug] [2020-06-23T07:14:44.604Z] Command:       /usr/local/bin/firebase /Users/j/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2020-06-23T07:14:44.605Z] CLI Version:   8.4.3
+[debug] [2020-06-23T07:14:44.605Z] Platform:      darwin
+[debug] [2020-06-23T07:14:44.605Z] Node Version:  v12.16.1
+[debug] [2020-06-23T07:14:44.606Z] Time:          Tue Jun 23 2020 14:14:44 GMT+0700 (Indochina Time)
+[debug] [2020-06-23T07:14:44.607Z] ----------------------------------------------------------------------
+[debug] [2020-06-23T07:14:44.607Z] 
+[debug] [2020-06-23T07:14:44.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-23T07:14:44.620Z] > authorizing via signed-in user
+[debug] [2020-06-23T07:14:44.620Z] [iam] checking project zing-mp3-clone for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-06-23T07:14:44.624Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zing-mp3-clone:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-06-23T07:14:45.674Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=825","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-23T07:14:45.677Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zing-mp3-clone  
+ 
+[debug] [2020-06-23T07:14:46.025Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'zing-mp3-clone'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-06-23T07:14:46.030Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zing-mp3-clone/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-06-23T07:14:47.614Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[zing-mp3-clone]: beginning deploy... 
+[info] i  hosting[zing-mp3-clone]: found 5 files in public 
+[debug] [2020-06-23T07:14:47.631Z] [hosting] hash cache [cHVibGlj] stored for 5 files
+[debug] [2020-06-23T07:14:47.631Z] [hosting][hash queue][FINAL] {"max":1,"min":0,"avg":0,"active":0,"complete":5,"success":5,"errored":0,"retried":0,"total":5,"elapsed":4}
+[debug] [2020-06-23T07:14:47.632Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zing-mp3-clone/versions/609e0b024a860c1f:populateFiles  
+ <request body omitted>
+[debug] [2020-06-23T07:14:48.954Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-23T07:14:48.955Z] [hosting][populate queue][FINAL] {"max":1326,"min":1326,"avg":1326,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1326}
+[debug] [2020-06-23T07:14:48.955Z] [hosting] uploads queued: 0
+[debug] [2020-06-23T07:14:48.955Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1592896488955}
+[info] ✔  hosting[zing-mp3-clone]: file upload complete 
+[debug] [2020-06-23T07:14:48.956Z] [hosting] deploy completed after 1341ms
+[debug] [2020-06-23T07:14:49.084Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "zing-mp3-clone"
+    },
+    "site": "zing-mp3-clone",
+    "version": "sites/zing-mp3-clone/versions/609e0b024a860c1f"
+  }
+]
+[info] i  hosting[zing-mp3-clone]: finalizing version... 
+[debug] [2020-06-23T07:14:49.085Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/zing-mp3-clone/versions/609e0b024a860c1f?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-06-23T07:14:50.482Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:50 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-23T07:14:50.482Z] [hosting] finalized version for zing-mp3-clone: {"name":"sites/zing-mp3-clone/versions/609e0b024a860c1f","status":"FINALIZED","config":{},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-06-23T07:14:47.211222Z","createUser":{"email":"longnt8910@gmail.com"},"finalizeTime":"2020-06-23T07:14:50.306765Z","finalizeUser":{"email":"longnt8910@gmail.com"}}
+[info] ✔  hosting[zing-mp3-clone]: version finalized 
+[info] i  hosting[zing-mp3-clone]: releasing new version... 
+[debug] [2020-06-23T07:14:50.484Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/zing-mp3-clone/releases?version_name=sites/zing-mp3-clone/versions/609e0b024a860c1f  
+ {"message":null}
+[debug] [2020-06-23T07:14:51.754Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 23 Jun 2020 07:14:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-28=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-23T07:14:51.755Z] [hosting] release: {"name":"sites/zing-mp3-clone/releases/1592896491610713","version":{"name":"sites/zing-mp3-clone/versions/609e0b024a860c1f","status":"FINALIZED","config":{}},"type":"DEPLOY","releaseTime":"2020-06-23T07:14:51Z"}
+[info] ✔  hosting[zing-mp3-clone]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/zing-mp3-clone/overview
+[info] Hosting URL: https://zing-mp3-clone.web.app

@@ -9,6 +9,11 @@ Yêu cầu:
 3. Gửi link github sau khi hoàn thành. 
 Ví dụ các trang mẫu: meetup.com, instagram.com, facebook.com, airbnb.com hoặc các giao diện khác trên themeforest.net. Chú ý: Các bạn nên deploy web mình làm lên firebase hosting, sau đó tạo một file README.md (google nếu không biết nó là gì) trong repo của mình, có chứa link tới trang web bạn đã deploy để team tiện review.
 
+### Update lần 2:
+Upload code lên firebase hosting qua link https://zing-mp3-clone.web.app
+
+Link sẽ bị clone là https://zingmp3.vn/nghe-si/ERIK
+
 ### Update lần 1 cho header và screenshot
 ![Image](screenshots/Screenshot-at-Jun-18-23-23-16-header.png)
 
