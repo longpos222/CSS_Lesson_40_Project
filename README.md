@@ -15,5 +15,6 @@ Upload code lên firebase hosting qua link https://zing-mp3-clone.web.app
 Link sẽ bị clone là https://zingmp3.vn/nghe-si/ERIK
 
 ### Update lần 1 cho header và screenshot
-![Image](screenshots/Screenshot-at-Jun-18-23-23-16-header.png)
+
+![Image](/public/screenshots/Screenshot-at-Jun-18-23-23-16-header.png)
 
